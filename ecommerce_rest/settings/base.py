@@ -20,6 +20,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 LOCAL_APPS = [
     'apps.users.apps.UsersConfig',
+    'apps.products.apps.ProductsConfig',
+    'apps.base.apps.BaseConfig',
+
     #'apps.users',
 ]
 
